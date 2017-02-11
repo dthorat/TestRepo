@@ -1,10 +1,10 @@
 server:
   port: 8080
-  context-path: /restaurant-booking-management
+  context-path: /restaurant-management
   
 spring:
   data:
     mongodb:
       host: localhost
       port: 27017
-      database: restaurant-booking-mgmt  
+      database: restaurant-mgmt  

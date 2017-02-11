@@ -1,5 +1,11 @@
 package com.restaurant.booking.domain;
 
-public class Address {
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
+public class Address {
+	String streetName;
+	String pincode;
 }
