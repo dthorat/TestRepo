@@ -27,8 +27,8 @@ public class RestaurantMgmtController {
     }
 
     @RequestMapping(value = "/searchRestaurant", method = RequestMethod.GET)
-    public ResponseEntity<?> searchRestaurant(@PathVariable String pincode) {
-        log.info("inside search restaurant");
+    public ResponseEntity<?> searchRestaurant(@RequestParam String pincode) {
+        log.info("search booking");
         List<Restaurant> resultList = restaurantService.findRestaurantByPincode(pincode);
         return new ResponseEntity<List<Restaurant>>(resultList,HttpStatus.OK);
     }
