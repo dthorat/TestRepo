@@ -5,6 +5,6 @@ server:
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
+      host: ds151279.mlab.com
+      port: 51279
       database: restaurant-mgmt  
