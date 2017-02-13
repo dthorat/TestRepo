@@ -18,9 +18,11 @@ Create Restaurant endpoint
 	Method : POST
 	Content-Type : application/json
 	Request Body : {
-						 " name":"Kya Baat Hai",
-						  "address.streetname":"Hadapsar-Nagar Bypass Road, Kharadi",
-						  "address.pincode":"411018"
+							"name": "Kya Baat Hai",
+							"address": {
+								"streetname": "Hadapsar-Nagar Bypass Road, Kharadi",
+								"pincode": "411018"
+							}
 						}
 						
 
